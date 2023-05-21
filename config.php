@@ -1,6 +1,6 @@
 <?php
 
-$databaseHost='localhost';
+$databaseHost='localhost:3307';
 $databaseName='academicportal';
 $databaseUsername='root';
 $databasePassword='';

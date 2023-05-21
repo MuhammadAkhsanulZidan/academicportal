@@ -32,8 +32,7 @@
                 $_SESSION["sname"] = $row['sname'];
                 $_SESSION["semail"] = $row['semail'];
                 $_SESSION["smajor"] = $row['smajor'];
-                //header("Location: index.php");
-                echo "success";
+                header("Location: index.php");
             }
             else{
                 echo "failed";

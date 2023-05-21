@@ -76,3 +76,9 @@ body{
     background-color: blue;
     color: white;
 }
+
+.login-form .btn:hover {
+    cursor: pointer;
+    background-color: rgb(4, 4, 141);
+    color: white;
+}

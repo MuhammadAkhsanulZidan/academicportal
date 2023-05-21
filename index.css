@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    text-decoration: none;
+}
+
+body{
+    font-family: Calibri;
+    background-color: #DDE6ED;
+}
+
+header{
+    background-color: #526D82;
+    color: white;
+    padding: 20px;
+    position: relative;
+    height: 30px;
+
+}
+
+header h2{
+    margin-left: 10px;
+    float: left;
+}
+
+.toggle{
+    float: right;
+    overflow: hidden;
+}
+
+.menu{
+    background-color: #ffffff;
+    width: max-content;
+    height: fit-content;
+    transform: translate(-95%);
+    position: absolute;
+    z-index: 1;
+    color: black;
+    padding: 10px;
+    text-align: end;
+    box-shadow: 0 0 5px #011625;
+    border-radius: 3px;
+}
+
+.menu a{
+    margin-top: 10px;
+    display: inline-block;
+    background-color: red;
+    box-shadow: 0 0 4px #011625;
+    color: white;
+    padding: 5px;
+}
+
+.menu a:hover{
+    background-color: #811111;
+}
+
+.container{
+    padding: 10px;
+    background-color: #fbfbfc;
+    width: 90%;
+    position: fixed;
+    margin-top: 10px;
+    left: 50%;
+    transform: translate(-50%);
+    height: max-content;
+}
+
+.container p{
+    margin-left: 20px;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+.container .title{
+    margin: 20px 30px 30px 20px;
+    color: #011625;
+}
+
+.container table{
+    border-color: rgb(74, 189, 209);
+    margin: 10px 20px 20px 20px;
+}
+
+.column-center{
+    text-align: center;
+}
+
+.container .column_name{
+    background-color: #bfd8eb;
+}
+
+.container a{
+    display: inline-block;
+    color: white;
+    background-color: #00335a;
+    margin: 0px 0px 10px 20px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+}
+
+.container a:hover{
+    color: yellow;
+    background-color: #4887b8;
+}
+
+.btn-toggle{
+    background-color: #526D82;
+    border: 0px;
+    color:white;
+    font-size: 25px;
+}
+
+.btn-toggle:hover{
+    background-color: #DDE6ED;
+    color: #00335a;
+}
+
+.update{
+    cursor: pointer;
+    display: inline-block;
+    color: white;
+    background-color: #00335a;
+    margin: 10px 0px 10px 20px;
+    padding: 7.5px 10px 7.5px 10px;
+    border-radius: 5px;
+    border: 0px;
+}
+
+.update:hover{
+    color: yellow;
+    background-color: #4887b8;
+}
